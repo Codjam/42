@@ -32,10 +32,15 @@ p {
     margin-left: 1ppx;
 }
 
-a, a:hover{
+ a:hover{
 text-decoration:none;
-color:#333;
+color:#fff;
  }
+
+ a{
+ text-decoration:none;
+ color:#333;
+  }
 
  .edebitimg{
    z-index:10;
@@ -96,6 +101,7 @@ background: transparent !important;
  .navigationBar--btm{
  background:#fff;
  line-height:65px;
+ background:transparent
   }
 
   .navigationBar--branding{
@@ -286,6 +292,7 @@ background: ##982922;
 }
 
 
+
 @media (max-width: 1200px) {
 .navigationBar--links{position:relative; float:right; padding:0; margin:0;}
 .navigationBar--links ul{position:relative; padding:0; margin:0; float:right; width:100%; text-align:center; }
@@ -383,5 +390,20 @@ background: ##982922;
 {
     color: white;
     margin-top: 15px;
+
+}
+
+.contact {
+  padding-bottom: 70px;
+
+}
+
+.contact:hover {
+
+    text-decoration: none;
+  color: white;
+  background-color: deepskyblue;
+  border-color: deepskyblue;
+  background-color: transparent;
 
 }
