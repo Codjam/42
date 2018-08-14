@@ -110,6 +110,14 @@ background: transparent !important;
   box-sizing:border-box;
    }
 
+   submit {
+       text-align: center!important;
+       margin-top: -164px;
+       background:background: #BBD2C5;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+
   .navigationBar--logo{
   position:relative;
   float:left;
@@ -151,10 +159,10 @@ background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, F
    .navigationBar--links ul{position:relative; float:right; text-align:center; display:inline; list-style-type:none; text-transform:uppercase; padding:0; margin:0;}
    .navigationBar--links ul li{position:relative; float:left;  display:inline;  padding:0; margin:0; font-size:14px; font-weight:bold; font-family:"roboto", sans-serif; box-sizing:border-box; text-align:center;}
    .navigationBar--links ul li a{padding:0 40px; text-align:center;}
-   .navigationBar--contactLink{ background: #BBD2C5;  /* fallback for old browsers */
+   .navigationBar--contactLink{ }
+   .navigationBar--contactLink:hover{background: #BBD2C5;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
-   .navigationBar--contactLink:hover{background:#FFCF2B; }
+   background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}}
    .navigationBar--contactLink a{color:#fff;}
    .navigationBar--contactLink a:hover{opacity:1; }
 
@@ -201,7 +209,7 @@ left: 0;
 
     .textWidget{font-size:15px; }
     .imgWidget{padding:40px 0; }
-    .imgWidget img{position:relative; float:right;}
+    .imgWidget img{position:relative; float:right; border-radius: 2%; }
 
   .infoSection--list{padding:0; margin:0; font-size: 4px;}
   .infoSection--list h4{padding-bottom:20px;}
@@ -257,11 +265,13 @@ background: ##982922;
   padding:20px 40px;
   background:rgba(14,14,14,0.85);
   margin-bottom: -66px;
+  border-radius: 2%;
    }
 
   .heroSection{
     background:transparent !important;
     padding:40px;
+    margin-bottom: 20px;
    }
 
   .aboutSection img{
